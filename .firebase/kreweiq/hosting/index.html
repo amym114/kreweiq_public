@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+
+    <!-- Primary Meta Tags -->
+    <meta
+      name="description"
+      content="Krewe IQ is an interactive Mardi Gras trivia game that challenges your knowledge about the holiday's history, traditions, and culture. Join the fun and compete with friends!"
+    />
+    <meta
+      name="keywords"
+      content="Mardi Gras, trivia, quiz, carnival, Krewe IQ, festival, interactive game, trivia challenge"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:title" content="Krewe IQ" />
+    <meta
+      property="og:description"
+      content="Parade your knowledge of Mardi Gras trivia! Test your expertise and challenge your friends in this fun, interactive game."
+    />
+    <meta
+      property="og:image"
+      content="https://kreweiq.com/assets/images/mg-header-new.jpg"
+    />
+    <!-- Update with your actual image path -->
+    <meta property="og:url" content="https://kreweiq.com/" />
+    <!-- Update with your site's URL -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Krewe IQ" />
+    <meta
+      name="twitter:description"
+      content="Test your knowledge of Mardi Gras trivia with Krewe IQ – the ultimate trivia challenge for festival fans!"
+    />
+    <meta name="twitter:image" content="/assets/images/twitter-image.png" />
+    <!-- Update with your actual image path -->
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Krewe IQ" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/apple-touch-icon.png"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/images/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+
+    <title>Krewe IQ</title>
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Structured Data with JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Krewe IQ",
+        "url": "https://kreweiq.com",
+        "description": "Krewe IQ is an interactive Mardi Gras trivia game that challenges your knowledge of the holiday's history, traditions, and culture. Join in the fun and compete with friends!",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "ALL",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <meta
+      name="google-signin-client_id"
+      content="1084596220605-pu56ui0h3alh3q5tocu4pja9mhk4m7mv.apps.googleusercontent.com"
+    />
+    <script>
+      window.flutterWebRenderer = "html";
+    </script>
+    <script src="flutter_bootstrap.js" async></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyD8KkxqARXuQ8OpWAQg5ifWkCqS1KNgcVI",
+
+        authDomain: "kreweiq.firebaseapp.com",
+
+        projectId: "kreweiq",
+
+        storageBucket: "kreweiq.firebasestorage.app",
+
+        messagingSenderId: "1084596220605",
+
+        appId: "1:1084596220605:web:73aad45c13db0d09aa3dd4",
+
+        measurementId: "G-YTNGS7DX42",
+      };
+
+      // Initialize Firebase
+
+      const app = initializeApp(firebaseConfig);
+
+      const analytics = getAnalytics(app);
+    </script>
+  </head>
+  <body id="app-container">
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>
